@@ -1,12 +1,110 @@
-# React + Vite
+# 🌟 Todo App -- React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, fast, and efficient **Todo Application** built using **React
+19** and **Vite 7**.\
+Designed for managing daily tasks with a smooth UI & modern workflow.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Add link here after deployment*
 
-## Expanding the ESLint configuration
+## ⚡ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **React 19**
+-   **Vite 7**
+-   **React Icons**
+-   **CSS**
+-   **JavaScript (ES Modules)**
+
+## 📌 Features
+
+-   Add Tasks\
+-   Mark Tasks as Completed\
+-   Delete Tasks\
+-   Clean & Responsive UI\
+-   Lightweight & Fast\
+-   Instant Hot Reload (Vite)
+
+## 📦 Installation
+
+### 1️⃣ Clone the repo
+
+``` bash
+git clone https://github.com/deepanshu-singh22/Todo-app.git
+cd Todo-app
+```
+
+### 2️⃣ Install dependencies
+
+``` bash
+npm install
+```
+
+### 3️⃣ Run the project
+
+``` bash
+npm run dev
+```
+
+### 4️⃣ Production Build
+
+``` bash
+npm run build
+```
+
+### 5️⃣ Preview Production
+
+``` bash
+npm run preview
+```
+
+## 🧾 Scripts
+
+-   `npm run dev` -- Start development\
+-   `npm run build` -- Build for production\
+-   `npm run preview` -- Preview build\
+-   `npm run lint` -- Run ESLint
+
+## 📁 Folder Structure
+
+    /
+    ├── src/
+    │   ├── components/
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── public/
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
+
+## 🛠 Dependencies
+
+### Main:
+
+-   react \^19.1.1\
+-   react-dom \^19.1.1\
+-   react-icons \^5.5.0
+
+### Dev:
+
+-   vite\
+-   eslint\
+-   @vitejs/plugin-react\
+-   @types/react\
+-   @types/react-dom
+
+## 🎉 Future Improvements
+
+-   Dark Mode\
+-   LocalStorage Save\
+-   Edit Task\
+-   Filters (All, Active, Completed)
+
+## 🤝 Contributing
+
+PRs and suggestions are welcome!
+
+## 📜 License
+
+Open-source project.
