@@ -1,0 +1,48 @@
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.switch {
+  position: relative;
+  width: 70px;
+  height: 35px;
+  background: #ccc; /* gray background */
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.switch-state {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 29px;
+  height: 29px;
+  background: white;
+  color: #999;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* When switch is ON */
+.switch.on {
+  background: #4caf50;
+    transform: translateX(35px); 
+}
+.off {
+  background-color: aqua;
+  transform: translateX(0);
+}
+
+.switch-state {
+  margin: 0 10px;
+}
